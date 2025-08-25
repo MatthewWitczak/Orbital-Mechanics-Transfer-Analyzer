@@ -22,7 +22,7 @@ Designed and implemented an engineering tool for spacecraft trajectory analysis 
 - pip install pyqt5 matplotlib numpy
 
 3. Run the app
-- python main.py
+- python Orbital_Mechanics_Transfer_Analyzer.py
 
 # Mathematical Background
 Transfer orbit semi-major axis:
