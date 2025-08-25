@@ -24,6 +24,18 @@ Designed and implemented an engineering tool for spacecraft trajectory analysis 
 3. Run the app
 - python Orbital_Mechanics_Transfer_Analyzer.py
 
+# Building a macOS app
+1. Open Terminal
+2. Go to the folder where the Orbital_Mechanics_Transfer_Analyzer.py file is located
+3. Create venv
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install --upgrade pip
+4. Install PyInstaller
+- pip install pyinstaller
+5. Build .app
+- pyinstaller --name "Orbital_Mechanics_Transfer_Analyzer" --windowed --onefile Orbital_Mechanics_Transfer_Analyzer.py
+
 # Mathematical Background
 Transfer orbit semi-major axis:
 - a_trans = (r1 + r2) / 2
