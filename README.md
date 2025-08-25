@@ -15,7 +15,7 @@ Designed and implemented an engineering tool for spacecraft trajectory analysis 
 
 # Installation
 1. Clone the repository
-- git clone https://github.com/YOUR_USERNAME/OrbitalMechanicsAnalyzer.git
+- git clone https://github.com/MatthewWitczak/OrbitalMechanicsAnalyzer.git
 - cd OrbitalMechanicsAnalyzer
 
 2. Install dependencies  
